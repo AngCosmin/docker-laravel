@@ -1,7 +1,5 @@
 # Docker Laravel
 
-<hr>
-
 #### 1. Composer install
 On Linux/MacOS: `docker run --rm -v $(pwd):/app composer install`  
 On Windows in PowerShell: `docker run --rm -v ${PWD}:/app composer install`  
