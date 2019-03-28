@@ -1,3 +1,7 @@
+# Docker Laravel
+
+<hr>
+
 #### 1. Composer install
 On Linux/MacOS: `docker run --rm -v $(pwd):/app composer install`  
 On Windows in PowerShell: `docker run --rm -v ${PWD}:/app composer install`  
@@ -14,5 +18,7 @@ On Windows in CMD: `docker run --rm -v %cd%:/app composer install`
 
 #### 5. Profit
 Enter on http://localhost  
-  
+
+<hr>
+
 Source: [DigitalOcean Community](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
