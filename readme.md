@@ -6,4 +6,4 @@
 
 `docker-compose up`  
 
-Enter on `http://localhost
+Enter on http://localhost
