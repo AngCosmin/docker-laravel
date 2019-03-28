@@ -1,9 +1,7 @@
 #### 1. Composer install
-On Linux/MacOS:
-`docker run --rm -v $(pwd):/app composer install`  
-
-On Windows:
-`docker run --rm -v ${PWD}:/app composer install`  
+On Linux/MacOS: `docker run --rm -v $(pwd):/app composer install`  
+On Windows in PowerShell: `docker run --rm -v ${PWD}:/app composer install`  
+On Windows in CMD: `docker run --rm -v %cd%:/app composer install`  
 
 #### 2. Create .env file
 `cp .env.example .env`  
