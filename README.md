@@ -13,4 +13,6 @@ On Windows in CMD: `docker run --rm -v %cd%:/app composer install`
 `docker-compose exec app php artisan key:generate`  
 
 #### 5. Profit
-Enter on http://localhost
+Enter on http://localhost  
+  
+Source: [DigitalOcean Community](https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose)
