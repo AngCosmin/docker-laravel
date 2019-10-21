@@ -18,6 +18,8 @@ services:
       - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini`
     networks:
       - app-network
+    ports:
+      - "6001:6001"
 
   webserver:
     image: nginx:alpine
